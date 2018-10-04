@@ -1,0 +1,28 @@
+//18031j0040
+Activity5
+
+
+Give the order of growth (as a function of N ) of the running times of each of the following code fragments:
+Note: use the following Notations for writing Answers: N, 1, log(N), N^2, N*log(N), 2^N, N^3, log(N)
+
+           
+Code-1:     int sum = 0;
+        for (int n = N; n > 0; n /= 2)
+            for(int i = 0; i < n; i++)
+                Sum++;
+				ANS:N LOG N
+        
+
+Code-2:    int sum = 0;
+        for (int i = 1 i < N; i *= 2)
+            for (int j = 0; j < i; j++)
+                sum++;
+				ANS:log N
+     
+Code-3:    int sum = 0;
+        for (int i = 1 i < N; i *= 2)
+            for (int j = 0; j < N; j++)
+                Sum++;
+       ANS: N log N
+
+
