@@ -1,0 +1,19 @@
+//18031j0040
+
+
+1.What is linked list?
+ans:linked list is a data structure that consists of a sequence of nodes.
+such that in each node there is a field that contains a data item and another field that stores the reference (or) link to the next node in the sequence.
+
+2.why linked list?
+ans:a linked list is a data structure that can grow or shrinks in size during execution of a program.
+
+3.Methods of Linked list?
+Insert:
+void insert():which is used to insert the elements in the form of nodes into the list.
+Delete:
+void delete():which is used to delete the elements from the linked list.
+Removeafter:
+void removeafter():which is used to delete the elements from the linked list at a particular place.
+insertafter:
+void insertafter():which is used to insert the elements in the form of nodes into the list at a particular place.
