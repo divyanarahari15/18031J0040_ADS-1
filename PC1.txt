@@ -1,0 +1,151 @@
+//18031j0040
+ADS-PC1
+
+1.while 50>0
+  push-1
+  while 25>0
+  push-0.50
+  while 12.50>0
+  push-0.25
+  while 6.25>0
+  push-0.125
+  while 3.125>0
+  push-0.0625
+  while 1.5625>0
+  push-0.03125
+  comes out of while
+  pop:1
+	  0.50
+	  0.25
+	  0.125
+	  0.0625
+	  0.03125
+	  
+	  
+	  
+2.Playing Cricket - is - a hobby - - of - - mentor - deepak
+enqueue-playing
+queue=playing
+enqueue-cricket
+queue=playing cricket
+dequeue
+queue=cricket
+enqueue-is
+queue=cricket is
+dequeue
+queue=is
+enqueue-a 
+queue=is a
+enqueue-hobby
+queue=is a hobby
+dequeue
+dequeue
+queue=hobby
+enqueue-of
+queue=hobby of
+dequeue
+dequeue
+queue=empty
+enqueue-mentor
+queue=mentor
+dequeue
+queue=empty
+enqueue=deepak
+//lastly the word deepak will remain in the queue
+
+
+
+3.	5 4 3 1 2 0 9 8 7 6
+	ANS:After 3 we cant pop 1,we have to pop 2//NO
+	0 9 8 7 6 5 4 3 2 1
+	ANS:YES,IT IS POSSIBLE
+	0 1 2 3 4 5 6 7 8 9
+	ANS:YES,IT IS POSSIBLE
+	1 3 5 7 9 2 4 6 8 0
+	ANS:After 9 we cant pop 2,we have to pop 8//NO
+	1 5 0 2 3 4 6 7 8 9
+	ANS:After 5 we cant pop 0,we have to pop 4//NO	
+
+
+4.INDEX:0 1 2 3 4 5 6 7 8 9
+	UNION(3,4)
+	0 1 2 4 4 5 6 7 8 9
+	UNION(4,9)
+	0 1 2 9 9 5 6 7 8 9
+	UNION(8,0)
+	0 1 2 9 9 5 6 7 0 9
+	UNION(2,3)
+	0 1 9 9 9 5 6 7 0 9
+	UNION(5,6)
+	0 1 9 9 9 6 6 7 0 9
+	UNION(5,9)
+	0 1 9 9 9 9 9 7 0 9
+	UNION(7,3)
+	0 1 9 9 9 9 9 9 0 9
+	UNION(4,8)
+	0 1 0 0 0 0 0 0 0 0
+	UNION(6,1)
+	1 1 1 1 1 1 1 1 1 1
+
+	
+5.INTIALLY STACK=-1
+	1.PUSH-{
+STACK=0
+	2.PUSH-[
+STACK=1
+	3.PUSH-]
+IT WILL POP THE BALANCED PARENTHESES
+STACK=0
+	4.PUSH-(
+STACK=1
+	5.PUSH-)
+IT WILL POP THE BALANCED PARENTHESES
+STACK=0
+	6.PUSH-}
+IT WILL POP THE BALANCED PARENTHESES
+STACK=-1
+
+
+6.FIRST LOOP WILL ITERATE FOR N/4 TIMES-LOG N
+  SECOND LOOP WILL ITERATE FOR N/4 TIMES-N
+ANS:N*LOG(N)
+
+
+7.FIRST LOOP WILL ITERATE FOR N TIMES- N
+  SECOND LOOP WILL ITERATE FOR N/2 TIMES-N/2
+ANS:N*N/2
+	N^2/2
+	
+	
+8.THE PROGRAM WILL RUN FOR CONSTANT TIME
+ANS:1
+
+
+
+9.FIRST LOOP WILL ITERATE FOR N TIMES- N	
+  SECOND LOOP WILL ITERATE FOR N TIMES- N
+ANS:N*N
+	N^2
+
+	
+	
+10.1 1 1 1 1 1 1 1 1 1//SAME AS 4TH	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
