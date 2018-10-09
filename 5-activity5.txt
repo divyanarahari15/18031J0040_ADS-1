@@ -1,0 +1,8 @@
+What does the following code fragment do to the queue q?
+Stack stack = new Stack(); 
+while (!q.isEmpty()) 
+stack.push(q.dequeue()); 
+while (!stack.isEmpty()) 
+q.enqueue(stack.pop());
+
+Solution: reverses the order of the strings in the queue.
