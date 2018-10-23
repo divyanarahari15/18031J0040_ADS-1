@@ -1,0 +1,69 @@
+//18031j0040
+Selection sort for EASYQUESTION
+
+step1:searches for the least numbered alphabet
+temp:A
+array:EASYQUESTION
+sorted:AESYQUESTION
+
+step2:leaving A again searches for the least numbered alphabet
+temp:E
+array:AESYQUESTION
+sorted:AESYQUESTION
+
+//here E is already sorted
+step3:leaving E again searches for the least numbered alphabet
+temp:E
+array:AESYQUESTION
+sorted:AEESYQUSTION
+
+step4:leaving E again searches for the least numbered alphabet
+temp:I
+array:AEESYQUSTION
+sorted:AEEISYQUSTON
+
+step5:leaving I again searches for the least numbered alphabet
+temp:N
+array:AEEISYQUSTON
+sorted:AEEINSYQUSTO
+
+step6:leaving N again searches for the least numbered alphabet
+temp:O
+array:AEEINSYQUSTO
+sorted:AEEINOSYQUST
+
+step7:leaving O again searches for the least numbered alphabet
+temp:Q
+array:AEEINOSYQUST
+sorted:AEEINOQSYUST
+
+step8:leaving Q again searches for the least numbered alphabet
+temp:S
+array:AEEINOSYQUST
+sorted:AEEINOQSYUST
+
+//here S is already sorted
+step9:leaving S again searches for the least numbered alphabet
+temp:S
+array:AEEINOQSYUST
+sorted:AEEINOQSYUST
+
+step10:leaving S again searches for the least numbered alphabet
+temp:T
+array:AEEINOQSYUST
+sorted:AEEINOQSSYUT
+
+step11:leaving T again searches for the least numbered alphabet
+temp:U
+array:AEEINOQSSYUT
+sorted:AEEINOQSSTYU
+
+step12:leaving U again searches for the least numbered alphabet
+temp:Y
+array:AEEINOQSSTYU
+sorted:AEEINOQSSTUY
+
+step13:Y is already at the correct position
+temp:Y
+array:AEEINOSYQUST
+sorted:AEEINOQSSYUT
