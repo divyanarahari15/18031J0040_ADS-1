@@ -1,0 +1,6 @@
+//18031j0040
+Given a non negative number n, return the factorial of n, which is n * (n-1) * (n-2)... 1. Compute the result recursively (without loops).
+
+if(n<=1)
+return 1;
+return n*fact(n-1);
