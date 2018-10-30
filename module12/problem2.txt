@@ -1,0 +1,4 @@
+//18031j0040
+
+Is an array that is sorted in Ascending order a min-oriented heap? Why?
+ans:yes,beacuse in min-oriented heap the data will be arranged so that as reaching down you can find largest value.same as ascending order.

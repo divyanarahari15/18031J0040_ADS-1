@@ -1,0 +1,24 @@
+//18031J0040
+
+Fill in the blanks-1
+
+0
+Overview
+Fill in the blanks-1
+Fill the missing statements in the below code:
+
+void swim(int k)
+{
+while(k>__ && less(__,__))
+{
+exch(__,__);
+k=__;
+}
+}
+
+blank1:l
+blank2:k/2
+blank3:k
+blank4:k
+blank5:k/2
+blank6:k/2

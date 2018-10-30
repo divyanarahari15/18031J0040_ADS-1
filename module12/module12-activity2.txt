@@ -1,0 +1,27 @@
+//18031j0040
+
+Fill in the blanks-2
+Fill the missing statements in the below code:
+
+void sink(int k)
+{
+while(2*k<=__)
+{
+int j=__;
+if(j<__&&less(__,__))__
+if(!less(__,__))break;
+exch(__,__);
+k=__;
+}
+}
+blank1:n
+blank2:2*k
+blank3:n
+blank4:j
+blank5:j+1
+blank6:j++
+blank7:k
+blank8:j
+blank9:k
+blank10:j
+blank11:j

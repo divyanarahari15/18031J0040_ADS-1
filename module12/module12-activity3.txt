@@ -1,0 +1,12 @@
+//18031j0040
+
+
+Fill in the blanks-3
+
+Suppose if we built a minPQ with following keys, then answer the following questions
+I A M S T E V E R O G E R S
+
+blank1:A E E E I G M O R R S S T
+
+blank2:E E
+
