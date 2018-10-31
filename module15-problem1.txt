@@ -1,0 +1,6 @@
+//18031j0040
+
+Which of the symbol-table implementations in this section would you use for an application that does 10^6 put() 
+operations and 10^3 get() operations, randomly intermixed? Justify your answer.
+
+ans:hash table
