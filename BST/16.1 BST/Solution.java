@@ -1,7 +1,8 @@
 import java.util.Scanner;
 
 class BookDetails implements Comparable {
-    
+    /*Comparable defines a natural ordering. What this means is that you're defining it when one object should be 
+	considered "less than" or "greater than".*/
     private String name;
     
     private String author;
@@ -26,7 +27,8 @@ class BookDetails implements Comparable {
         return this.price;
     }
     
-    public int compareTo( Object object) {
+    public int compareTo( Object object) //returns int value
+{
         BookDetails that = (BookDetails) object;
         return this.name.compareTo(that.name);
     }
