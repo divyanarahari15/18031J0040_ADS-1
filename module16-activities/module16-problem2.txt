@@ -1,0 +1,27 @@
+//18031j0040
+
+Fill in the blanks-2
+
+ Fill the following blanks in the put method of BST
+
+ 
+ private Node put(Node x, Key key, Value val) { 
+if (x == ______________)          // Blank 1
+return new Node(key, val); 
+int cmp = key.compareTo(___________);    // Blank 2
+if (cmp < 0) 
+x.left = put(_____________, key, val);    // Blank 3
+else if (cmp > 0) 
+x.right = put(_____________, key, val);   // Blank 4
+else 
+x.val = val; 
+return x; 
+}
+
+Blank1:null
+
+Blank2:x.key
+
+Blank3:x.left
+
+Blank4:x.right

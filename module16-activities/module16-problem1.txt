@@ -1,0 +1,28 @@
+//18031j0040
+
+Fill in the blanks-1
+
+1) Fill the following blanks in the get method of BST
+
+private Value get(Node x, Key key) { 
+if (x == null) return ___________;     // Blank 1 
+int cmp = key.compareTo(_____________);   // Blank 2
+if (cmp < 0) 
+return get(________, key);      // Blank 3
+else if (cmp > 0) 
+return get(___________, key);    // Blank 4
+else return x.val; 
+}
+
+
+Blank1:x.val
+
+Blank2:x.key
+
+Blank3:x.left
+
+Blank4:x.right
+
+
+
+

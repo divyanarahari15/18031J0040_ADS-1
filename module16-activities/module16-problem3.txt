@@ -1,0 +1,19 @@
+//18031j0040
+
+Following the above criteria, draw a BST for the following keys (you receive keys from
+left to right) and answer the below questions.
+11, 6, 8, 19, 4, 17, 43, 49, 31
+What will be the child nodes for element 6 ?
+ans:left=4 & right=8
+
+
+How many leaf nodes in the resultant tree ?
+ans:leaf nodes=5
+
+
+How many compares (key compares) does it take to insert the last element(31) in to the tree?
+ans:two
+
+
+How many compares (key compares) does it take when we call get(8) method ?
+ans:two
