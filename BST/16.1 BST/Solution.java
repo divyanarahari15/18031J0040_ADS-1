@@ -89,24 +89,28 @@ class BinarySearchTree<Key extends Comparable<Key>, Value> {
 }
 public class Solution {
     
-    public static void main(final String[] args) {
+	public static void main(final String[] args) {
         Scanner sc = new Scanner(System.in);
-        BinarySearchTree bstobj = new BinarySearchTree();
-        while (sc.hasNextLine()) {
+        BinarySearchTree bst = new BinarySearchTree();
+        while (sc.hasNextLine()) 
+        {
             String[] tokens = sc.nextLine().split(",");
-            switch (tokens[0]) {
+            switch (tokens[0]) 
+            {
             case "put":
-                BookDetails deobj = new BookDetails(tokens[1],
-                 tokens[2], Float.parseFloat(tokens[2 + 1]));
-                bstobj.put(deobj, Integer.parseInt(tokens[2 + 2]));
+                BookDetails book = new BookDetails(tokens[1],tokens[2], Float.parseFloat(tokens[3]));
+                bst.put(book, Integer.parseInt(tokens[4]));
                 break;
             case "get":
-                deobj = new BookDetails(tokens[1], tokens[2],
-                    Float.parseFloat(tokens[2 + 1]));
-                if (bstobj.get(deobj) == null) {
+                book = new BookDetails(tokens[1], tokens[2],
+                    Float.parseFloat(tokens[3]));
+                if (bst.get(book) == null) 
+                {
                     System.out.println("null");
-                } else {
-                    System.out.println(bstobj.get(deobj));
+                } 
+                else 
+                {
+                    System.out.println(bst.get(book));
                 }
                 break;
             default:
