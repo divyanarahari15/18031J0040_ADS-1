@@ -1,0 +1,13 @@
+//18031j0040
+
+private void flipColors(Node h) {
+        		h.color = _________;  //Blank1
+        		h.left.color = ______;  //Blank2
+        		h.right.color = ______;  //Blank3
+	}
+
+Blank 1:red
+
+Blank 2:black
+
+Blank 3:black
