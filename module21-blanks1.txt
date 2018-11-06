@@ -1,0 +1,23 @@
+//18031j0040
+
+private Node rotateRight(Node h) {
+        Node x = h.left;
+        ______ = x.right;           //Blank1
+        x.right = _________;     //Blank2
+        x.color = ___________; //Blank3
+        x.right.color = RED;
+        x.size =____________;  //Blank4
+        h.size = size(h.left) + size(h.right) + 1;
+        return ___________;      //Blank5
+ }
+
+
+Blank1:h.left
+
+Blank1:h
+
+Blank3:x.right.colour
+
+Blank4:h.size
+
+Blank5:x
