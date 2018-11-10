@@ -14,57 +14,30 @@ public class QueueDemo<Item> implements Iterable<Item> {
         private Node next;   // reference to next item
     }
 
-    /**
-     * Initializes an empty queue.
-     */
     public QueueDemo() {
         first = null;
         last = null;
         n = 0;
     }
 
-    /**
-     * Returns true if this queue is empty.
-     *
-     * @return {@code true} if this queue is empty; {@code false} otherwise
-     */
     public boolean isEmpty() {
         return first == null;
     }
 
-    /**
-     * Returns the number of items in this queue.
-     *
-     * @return the number of items in this queue
-     */
     public int size() {
         return n;
     }
 
-    /**
-     * Returns the number of items in this queue.
-     *
-     * @return the number of items in this queue
-     */
     public int length() {
         return n;
     }
 
-    /**
-     * Returns the item least recently added to this queue.
-     *
-     * @return the item least recently added to this queue
-     * @throws NoSuchElementException if this queue is empty
-     */
     public Item peek() throws Exception
     {
         if (isEmpty()) throw new NoSuchElementException("Queue underflow");
         return first.item;
     }
 
-    /**
-     * Add the item to the queue.
-     */
     public void enqueue(Item item) {
         Node oldlast = last;
         last = new Node();
@@ -75,12 +48,6 @@ public class QueueDemo<Item> implements Iterable<Item> {
         n++;
     }
 
-    /**
-     * Removes and returns the item on this queue that was least recently added.
-     *
-     * @return the item on this queue that was least recently added
-     * @throws NoSuchElementException if this queue is empty
-     */
     public Item dequeue() {
         if (isEmpty()) throw new NoSuchElementException("Queue underflow");
         Item item = first.item;
@@ -90,11 +57,6 @@ public class QueueDemo<Item> implements Iterable<Item> {
         return item;
     }
 
-    /**
-     * Returns a string representation of this queue.
-     *
-     * @return the sequence of items in FIFO order, separated by spaces
-     */
     public String toString() {
         StringBuilder s = new StringBuilder();
         for (Item item : this)
@@ -102,12 +64,6 @@ public class QueueDemo<Item> implements Iterable<Item> {
         return s.toString();
     }
 
-
-    /**
-     * Returns an iterator that iterates over the items in this queue in FIFO order.
-     *
-     * @return an iterator that iterates over the items in this queue in FIFO order
-     */
     public Iterator<Item> iterator() {
         return new ListIterator();
     }
@@ -132,18 +88,5 @@ public class QueueDemo<Item> implements Iterable<Item> {
         }
     }
 
-
-    /**
-     * Unit tests the {@code Queue} data type.
-     */
-    /*public static void main(String[] args) {
-        Queue<String> queue = new Queue<String>();
-        while (!StdIn.isEmpty()) {
-            String item = StdIn.readString();
-            if (!item.equals("-")) queue.enqueue(item);
-            else if (!queue.isEmpty()) StdOut.print(queue.dequeue() + " ");
-        }
-        StdOut.println("(" + queue.size() + " left on queue)");
-    }*/
 }
 
